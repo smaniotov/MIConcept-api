@@ -1,0 +1,15 @@
+{
+  "name": "MIConcept-api",
+  "version": "1.0.0",
+  "description": "Api to support MIConcept front end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vinícius Smanioto/Ítalo Cordeiro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.3"
+  }
+}
