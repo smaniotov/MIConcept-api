@@ -1,0 +1,1 @@
+exports.databaseHost = 'mongodb://localhost/test'
