@@ -1,1 +1,2 @@
-exports.databaseHost = 'mongodb://localhost/test'
+exports.hostname = 'local.miconcept.com'
+exports.port = '9000'

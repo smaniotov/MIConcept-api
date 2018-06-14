@@ -1,1 +1,2 @@
-exports.todo = require("./todo")
+exports.TodoApi = require("./todo")
+exports.UserApi = require("./user")

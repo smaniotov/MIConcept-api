@@ -4,11 +4,23 @@ const Schema = mongoose.Schema
 const TodoSchema = new Schema({
   title: {
     type: String,
-    required: true
+    required: true,
+    min: 0,
+    max: 50
   },
-  description: {
+  stars: {
+    type: Number,
+    default: 0
+  },
+  content: {
     type: String,
-    required: true
+    required: true,
+    min: 0,
+    max: 255
+  },
+  createdAt: {
+    default: Date.now(),
+    type: Date
   }
 })
 

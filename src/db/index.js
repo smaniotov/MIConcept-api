@@ -9,6 +9,10 @@ class DB {
   connect () {
     this.connection = mongoose.connect(this.databaseHost)
   }
+
+  disconect () {
+    return mongoose.disconnect()
+  }
 }
 
 module.exports = DB
